@@ -1,0 +1,19 @@
+{
+  "name": "modern",
+  "version": "0.0.0",
+  "authors": [
+    "mankdev <tema@mankdev.name>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "traceur-runtime": "~0.0.41",
+    "es6-shim": "~0.10.1"
+  }
+}
