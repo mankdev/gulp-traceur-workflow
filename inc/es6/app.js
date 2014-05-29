@@ -1,5 +1,11 @@
 console.log('loaded app.js');
 
-window.App = function() {
+let App = function() {
     console.log('hi from app.js');
 };
+
+App.greet = function() {
+	console.log('hi from Application');
+};
+
+export var App = App;
