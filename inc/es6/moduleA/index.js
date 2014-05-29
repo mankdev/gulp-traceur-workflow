@@ -1,8 +1,15 @@
-import {App} from '../es6/app.js';
+module app from '../app';
 
 console.log('loaded moduleA/index.js');
-App.greet();
+app.App.greet();
+
+sayHello();
+
 
 window.moduleA = function() {
     console.log('hi from moduleA/index.js');
 };
+
+export function sayHi() {
+	console.log('hi from moduleA/index.js');
+}
