@@ -10,6 +10,5 @@ describe('qweqwe', function() {
 
     it('should working with app', function() {
         expect(App.prp).toBe('prep');
-        console.log(App);
     })
 });

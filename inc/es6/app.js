@@ -1,13 +1,5 @@
-console.log('loaded app.js');
+console.log('loading application');
 
-let App = function() {
-    console.log('hi from app.js');
-};
-
-App.prp = 'prep';
-
-App.greet = function() {
-	console.log('hi from Application');
-};
-
-export var App = App;
+module moduleA from './moduleA/moduleA';
+module moduleB from './moduleB/moduleB';
+module moduleC from './moduleC/moduleC';

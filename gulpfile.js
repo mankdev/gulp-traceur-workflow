@@ -11,7 +11,7 @@ gulp.task('scripts', ['scripts-clean'], function(done) {
 
 	//compiling through CLI-tool of traceur for better modules supporting and sourcemaps
 	traceurCompileThroughCMD(['inc/es6/**/*.js'],
-		['--sourcemap', '--block-binding=true', '--out inc/js/application.js'], done);
+		['--sourcemap', '--block-binding=true', '--out inc/js/application.js', '--modules=register'], done);
 });
 
 function traceurCompileThroughCMD(filePatterns, options, cb) {
